@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-section{
+    height: 100vh;
+    background: linear-gradient(to right,#020617,#020617ea,transparent),url('./bg.jpg');
+    background-size: cover;
+    padding: 3rem;
+}
+
+.text-red{
+    color: red;
+}
+.text-white{
+    color: white;
+}
+.logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.logo-icon{
+    font-size: 2.0rem;
+}
+.logo-text{
+    line-height: .9;
+    display: flex;
+    gap: 7px;
+    letter-spacing: 2px;
+}
+.logo-tagline{
+    letter-spacing: 3.5px;   
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.big-text{
+    padding: 4rem 0;
+    font-size: 5rem;
+    line-height: 1.1;
+}
+.hero-container{
+    max-width: 500px;
+}
+
+.small-text{
+    border-left: 5px solid red;
+    padding: 0 1rem ;
+}
+
+/* FEATURES SECTION */
+.features-section{
+    min-height: 100vh;
+    background: #020617;
+    padding: 3rem;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* max-width: 1024px;
+    margin: 0 auto; */
+    color: white;
+
+}
+
+.card{
+    background: #334155;
+    padding: 10px;
+    display: flex;
+    gap: 12px;
+    width: 30%;
+    /* height: 120px; */
+align-items: center;
+}
+.card-icon{
+    color: white;
+    background: red;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: center;
+}
+.card-text{
+    color: white;
+}
+.card-title{
+    font-weight: bold;
+}
+.about-section{
+    /* min-height: 100vh; */
+    display: flex;
+    background-color: rgb(185,183,182);
+width: 100vw;
+justify-content: space-between;
+margin: 0 auto;
+}
+.about-section2{
+    background-color: rgb(222,222,222);
+    width: 50%;
+    align-items: center;
+    padding: 5rem 3rem;
+    gap:rem;
+    text-align: right;
+}
+.about{
+    width: 50%;
+    padding: 5rem 3rem;
+    gap:2rem
+}
+.why- section{
+    padding-top: 4rem;
+
+}
+.about-section1{
+    padding-top: 10rem;
+}
+.help{
+padding-top: 1rem;
+}
+.service{
+    padding-top: 9rem;
+}
+.about-section2 h2{
+    color: red;
+}
+.why{
+    color: red;
+}
+.our{
+    color: red;
+}
+.service-color{
+    color: red;
+}
+.about-section2 p{
+    padding-right:1rem ;
+}
+.about-section2 h1{
+    padding-left: 6rem;
+}
+.about-section2 h2{
+    padding-left: 8rem;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: 1rem;
+
+}
+.footer1{
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+.footer2{
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+.footer3{
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+.logo-section{
+    font-size: 5rem;
+    font-weight: 1rem solid black;
+}
+.bx-phone-call{
+    font-size: 1.4rem;
+    color: white;
+    background-color: red;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    width: 50px;
+    text-align: center;
+    padding-top: 1rem;
+}
+.bx-globe{
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 1rem;
+    /* align-items: center; */
+}
+.bxs-location-plus{
+    color: white;
+    background-color: red;
+    width: 50px;
+    padding-top: 1rem;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
